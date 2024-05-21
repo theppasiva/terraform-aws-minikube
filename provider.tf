@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "shivaram-practice-remote-state"
-    key    = "user"
+    key    = "minikube"
     region = "us-east-1"
     dynamodb_table = "shivaram-practice_locking"
   }
